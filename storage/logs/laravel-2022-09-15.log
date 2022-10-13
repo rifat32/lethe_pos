@@ -1,0 +1,494 @@
+[2022-09-15 14:57:16] main.ERROR: Uncaught Error: Call to undefined method App\Http\Kernel::getMiddlewareGroups() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Error: Call to undefined method App\\Http\\Kernel::getMiddlewareGroups() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 14:57:16] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 14:57:16] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 14:57:16] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 14:58:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 14:58:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 14:59:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 14:59:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:00:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:00:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:01:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:01:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:02:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:02:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:03:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:03:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:04:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:04:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:05:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:05:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:06:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:06:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:07:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:07:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:08:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:08:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:09:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:09:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:10:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:10:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:11:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:11:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:12:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:12:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:13:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:13:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:14:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:14:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:15:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:15:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:16:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:16:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:17:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:17:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:18:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:18:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:19:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:19:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:20:15] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcare4/pos/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-15 15:20:15] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 

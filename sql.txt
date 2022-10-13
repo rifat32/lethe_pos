@@ -1,0 +1,7 @@
+ALTER TABLE `purchase_lines` ADD `line_discount_type` ENUM('fixed','percentage') NOT NULL AFTER `purchase_price`, ADD `line_discount_amount` FLOAT NOT NULL DEFAULT '0' AFTER `line_discount_type`;
+
+
+ALTER TABLE `contacts` ADD `selling_price_groups_id` INT NOT NULL DEFAULT '0' AFTER `custom_field4`;
+
+
+INSERT INTO `permissions` (`id`, `name`, `guard_name`, `created_at`, `updated_at`) VALUES ('152', 'supplier_report.view', 'web', NULL, NULL);

@@ -1,0 +1,1 @@
+[2022-08-29 13:43:30] main.EMERGENCY: File:/home/bdpetcare/public_html/pos/vendor/laravel/framework/src/Illuminate/Database/Connection.phpLine:664Message:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image' in 'field list' (SQL: insert into `product_images` (`product_id`, `image`) values (860, 1661759010_0a59830ed2e79f0cdc1853a1263dad83.jpg))  

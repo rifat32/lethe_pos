@@ -1,0 +1,27 @@
+.skin-purple .main-header .navbar {
+    background-color: #31b0d5;
+}
+
+.btn-success {
+    background-color: #0884a9 !important;
+    border-color: #d7f0f7 !important;
+}
+
+.skin-purple .main-header .logo {
+    background-color: #0997c1;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-purple .wrapper,
+.skin-purple .main-sidebar,
+.skin-purple .left-side {
+    background-color: #025972;
+}
+
+.skin-purple .sidebar-menu>li:hover>a,
+.skin-purple .sidebar-menu>li.active>a {
+    color: #fff;
+    background: #1294bb;
+    border-left-color: #605ca8;
+}

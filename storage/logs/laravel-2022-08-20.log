@@ -1,0 +1,479 @@
+[2022-08-20 14:42:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:42:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:42:13] main.ERROR: Uncaught Error: Call to undefined method App\Http\Kernel::getMiddlewareGroups() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Error: Call to undefined method App\\Http\\Kernel::getMiddlewareGroups() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:42:13] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:43:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:43:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:44:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:44:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:45:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:45:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:46:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:46:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 05:16:52] main.ERROR: Trying to get property 'invoice_no' of non-object (View: /home/rifat/bdpetcarepos3/resources/views/sale_pos/show.blade.php) {"userId":36,"email":"hasm38297@gmail.com","exception":"[object] (ErrorException(code: 0): Trying to get property 'invoice_no' of non-object (View: /home/rifat/bdpetcarepos3/resources/views/sale_pos/show.blade.php) at /home/rifat/bdpetcarepos3/storage/framework/views/4997efdd2e395fd0fb3e7daf42724e0f42b5d860.php:5, ErrorException(code: 0): Trying to get property 'invoice_no' of non-object at /home/rifat/bdpetcarepos3/storage/framework/views/4997efdd2e395fd0fb3e7daf42724e0f42b5d860.php:5)
+[stacktrace]
+#0 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/rifat/bdp...', Array)
+#2 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\\View\\Engines\\CompilerEngine->get('/home/rifat/bdp...', Array)
+#3 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\\View\\View->getContents()
+#4 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/View.php(85): Illuminate\\View\\View->renderContents()
+#5 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Http/Response.php(42): Illuminate\\View\\View->render()
+#6 /home/rifat/bdpetcarepos3/vendor/symfony/http-foundation/Response.php(206): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#7 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(724): Symfony\\Component\\HttpFoundation\\Response->__construct(Object(Illuminate\\View\\View))
+#8 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(698): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#9 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#10 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /home/rifat/bdpetcarepos3/app/Http/Middleware/Timezone.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\Timezone->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /home/rifat/bdpetcarepos3/app/Http/Middleware/Language.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\Language->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /home/rifat/bdpetcarepos3/app/Http/Middleware/SetSessionData.php(53): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\SetSessionData->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /home/rifat/bdpetcarepos3/app/Http/Middleware/IsInstalled.php(23): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\IsInstalled->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(43): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#33 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#45 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#46 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#47 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#48 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(590): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#49 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#50 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#51 /home/rifat/bdpetcarepos3/vendor/barryvdh/laravel-debugbar/src/Middleware/InjectDebugbar.php(58): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#52 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#55 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#58 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#61 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#63 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#64 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#67 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#68 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#69 /home/rifat/bdpetcarepos3/public/index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#70 /home/rifat/bdpetcarepos3/server.php(21): require_once('/home/rifat/bdp...')
+#71 {main}
+"} 
+[2022-08-20 14:47:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:47:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 05:17:28] main.ERROR: Trying to get property 'invoice_no' of non-object (View: /home/rifat/bdpetcarepos3/resources/views/sale_pos/show.blade.php) {"userId":36,"email":"hasm38297@gmail.com","exception":"[object] (ErrorException(code: 0): Trying to get property 'invoice_no' of non-object (View: /home/rifat/bdpetcarepos3/resources/views/sale_pos/show.blade.php) at /home/rifat/bdpetcarepos3/storage/framework/views/4997efdd2e395fd0fb3e7daf42724e0f42b5d860.php:5, ErrorException(code: 0): Trying to get property 'invoice_no' of non-object at /home/rifat/bdpetcarepos3/storage/framework/views/4997efdd2e395fd0fb3e7daf42724e0f42b5d860.php:5)
+[stacktrace]
+#0 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/rifat/bdp...', Array)
+#2 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\\View\\Engines\\CompilerEngine->get('/home/rifat/bdp...', Array)
+#3 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\\View\\View->getContents()
+#4 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/View.php(85): Illuminate\\View\\View->renderContents()
+#5 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Http/Response.php(42): Illuminate\\View\\View->render()
+#6 /home/rifat/bdpetcarepos3/vendor/symfony/http-foundation/Response.php(206): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#7 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(724): Symfony\\Component\\HttpFoundation\\Response->__construct(Object(Illuminate\\View\\View))
+#8 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(698): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#9 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#10 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /home/rifat/bdpetcarepos3/app/Http/Middleware/Timezone.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\Timezone->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /home/rifat/bdpetcarepos3/app/Http/Middleware/Language.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\Language->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /home/rifat/bdpetcarepos3/app/Http/Middleware/SetSessionData.php(53): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\SetSessionData->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /home/rifat/bdpetcarepos3/app/Http/Middleware/IsInstalled.php(23): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\IsInstalled->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(43): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#33 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#45 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#46 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#47 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#48 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(590): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#49 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#50 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#51 /home/rifat/bdpetcarepos3/vendor/barryvdh/laravel-debugbar/src/Middleware/InjectDebugbar.php(58): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#52 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#55 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#58 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#61 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#63 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#64 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#67 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#68 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#69 /home/rifat/bdpetcarepos3/public/index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#70 /home/rifat/bdpetcarepos3/server.php(21): require_once('/home/rifat/bdp...')
+#71 {main}
+"} 
+[2022-08-20 14:48:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:48:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 05:18:36] main.ERROR: Trying to get property 'invoice_no' of non-object (View: /home/rifat/bdpetcarepos3/resources/views/sale_pos/show.blade.php) {"userId":36,"email":"hasm38297@gmail.com","exception":"[object] (ErrorException(code: 0): Trying to get property 'invoice_no' of non-object (View: /home/rifat/bdpetcarepos3/resources/views/sale_pos/show.blade.php) at /home/rifat/bdpetcarepos3/storage/framework/views/4997efdd2e395fd0fb3e7daf42724e0f42b5d860.php:5, ErrorException(code: 0): Trying to get property 'invoice_no' of non-object at /home/rifat/bdpetcarepos3/storage/framework/views/4997efdd2e395fd0fb3e7daf42724e0f42b5d860.php:5)
+[stacktrace]
+#0 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/rifat/bdp...', Array)
+#2 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\\View\\Engines\\CompilerEngine->get('/home/rifat/bdp...', Array)
+#3 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\\View\\View->getContents()
+#4 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/View.php(85): Illuminate\\View\\View->renderContents()
+#5 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Http/Response.php(42): Illuminate\\View\\View->render()
+#6 /home/rifat/bdpetcarepos3/vendor/symfony/http-foundation/Response.php(206): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#7 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(724): Symfony\\Component\\HttpFoundation\\Response->__construct(Object(Illuminate\\View\\View))
+#8 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(698): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#9 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#10 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /home/rifat/bdpetcarepos3/app/Http/Middleware/Timezone.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\Timezone->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /home/rifat/bdpetcarepos3/app/Http/Middleware/Language.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\Language->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /home/rifat/bdpetcarepos3/app/Http/Middleware/SetSessionData.php(53): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\SetSessionData->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /home/rifat/bdpetcarepos3/app/Http/Middleware/IsInstalled.php(23): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\IsInstalled->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(43): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#33 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#45 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#46 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#47 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#48 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Router.php(590): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#49 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#50 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#51 /home/rifat/bdpetcarepos3/vendor/barryvdh/laravel-debugbar/src/Middleware/InjectDebugbar.php(58): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#52 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#55 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#58 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#61 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#63 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#64 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#67 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#68 /home/rifat/bdpetcarepos3/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#69 /home/rifat/bdpetcarepos3/public/index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#70 /home/rifat/bdpetcarepos3/server.php(21): require_once('/home/rifat/bdp...')
+#71 {main}
+"} 
+[2022-08-20 14:49:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:49:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:50:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:50:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:51:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:51:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:52:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:52:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:53:12] main.ERROR: Trait 'App\SoftDeletes' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Trait 'App\\SoftDeletes' not found at /home/rifat/bdpetcarepos3/app/discount.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2022-08-20 14:53:12] main.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 

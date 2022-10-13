@@ -1,0 +1,9 @@
+[2022-07-25 05:27:08] main.EMERGENCY: File:/home/bdpetcare/public_html/pos/vendor/nesbot/carbon/src/Carbon/Carbon.phpLine:917Message:Unexpected data found.  
+[2022-07-25 05:28:06] main.EMERGENCY: File:/home/bdpetcare/public_html/pos/vendor/nesbot/carbon/src/Carbon/Carbon.phpLine:917Message:Unexpected data found.  
+[2022-07-25 06:09:57] main.EMERGENCY: File:/home/bdpetcare/public_html/pos/app/Utils/TransactionUtil.phpLine:55Message:Undefined index: assistant_id  
+[2022-07-25 06:10:47] main.EMERGENCY: File:/home/bdpetcare/public_html/pos/app/Utils/TransactionUtil.phpLine:55Message:Undefined index: assistant_id  
+[2022-07-25 06:17:54] main.EMERGENCY: File:/home/bdpetcare/public_html/pos/app/Utils/TransactionUtil.phpLine:55Message:Undefined index: assistant_id  
+[2022-07-25 06:46:59] main.EMERGENCY: File:/home/bdpetcare/public_html/pos/storage/framework/views/c8333cb152eac4bf47ac3cd14e805c41e6f8655c.phpLine:150Message:Trying to get property 'name' of non-object (View: /home/bdpetcare/public_html/pos/resources/views/sale_pos/receipts/classic.blade.php)  
+[2022-07-25 06:53:52] main.EMERGENCY: File:/home/bdpetcare/public_html/pos/storage/framework/views/c8333cb152eac4bf47ac3cd14e805c41e6f8655c.phpLine:150Message:Trying to get property 'name' of non-object (View: /home/bdpetcare/public_html/pos/resources/views/sale_pos/receipts/classic.blade.php)  
+[2022-07-25 08:45:17] main.EMERGENCY: File:/home/bdpetcare/public_html/pos/app/Utils/TransactionUtil.phpLine:55Message:Undefined index: assistant_id  
+[2022-07-25 09:52:09] main.EMERGENCY: File:/home/bdpetcare/public_html/pos/app/Utils/TransactionUtil.phpLine:55Message:Undefined index: assistant_id  
