@@ -18,8 +18,8 @@
 {!! Form::open(['url' => action('SellPosController@store'), 'method' => 'post', 'id' => 'add_pos_sell_form' ]) !!}
 <section class="content no-print" style="background: #0a9ca3;">
 	<div class="row"  >
-		<div style="margin:0 auto;" class="   @if(!empty($pos_settings['hide_product_suggestion']) && !empty($pos_settings['hide_recent_trans'])) col-md-10 col-md-offset-2 @else col-md-8 col-md-offset-2 @endif col-sm-12"  >
-			<div class="box box-success" style="margin-left:25rem; background:#dae6e4; height:95vh;">
+		<div style="margin:0 auto;" class="   @if(!empty($pos_settings['hide_product_suggestion']) && !empty($pos_settings['hide_recent_trans'])) col-md-10 col-md-offset-2 @else col-md-9 col-md-offset-2 @endif col-sm-12"  >
+			<div class="box box-success" style="margin-left:20rem; background:#dae6e4; height:95vh;">
 
 				<div class="box-header with-border">
 					<div class="col-sm-4">
@@ -256,21 +256,23 @@
 
 
 									</th>
-									<th class="text-center col-md-3">
-										{{-- @lang('sale.qty') --}}
+									<th class="text-center col-md-4">
+									
 										Gross weight/pc
 									</th>
-									<th class="text-center col-md-2 {{$hide_tax}}">
+									<th class="text-center col-md-4 {{$hide_tax}}">
 										@lang('sale.price_inc_tax')
 									</th>
 									
                                     {{-- <th class="text-center col-md-3">
 										Unit
 									</th> --}}
-									<th class="text-center col-md-3">
-										{{-- @lang('sale.subtotal') --}}
-										per kg
-										BDT
+									<th class="text-center col-md-4">
+										<span style="visibility: hidden;">
+
+											fffffffffffffffffffffffffff
+										</span>
+									per kg BDT
 									</th>
 									<th class="text-center col-md-3">
 										{{-- @lang('sale.subtotal') --}}
