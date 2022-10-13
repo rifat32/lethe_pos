@@ -1551,7 +1551,7 @@ class SellPosController extends Controller
             \Log::emergency("File:" . $e->getFile() . "Line:" . $e->getLine() . "Message:" . $e->getMessage());
 
             $output['success'] = false;
-            $output['msg'] = __('lang_v1.item_out_of_stock');
+            $output['msg'] = $e->getMessage();
         }
 
         return $output;

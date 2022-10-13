@@ -5,7 +5,7 @@
 
 <!-- Content Header (Page header) -->
 <section class="content-header">
-    <h1>@lang('purchase.add_purchase') <i class="fa fa-keyboard-o hover-q text-muted" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="bottom" data-content="@include('purchase.partials.keyboard_shortcuts_details')" data-html="true" data-trigger="hover" data-original-title="" title=""></i>
+    <h1>Add Import<i class="fa fa-keyboard-o hover-q text-muted" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="bottom" data-content="@include('purchase.partials.keyboard_shortcuts_details')" data-html="true" data-trigger="hover" data-original-title="" title=""></i>
 	</h1>
     <!-- <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
@@ -225,7 +225,7 @@
 				<div class="col-sm-12">
 				<table class="table">
 					<tr>
-						<td class="col-md-3">
+						<td class="col-md-3 hide">
 							<div class="form-group" >
 								{!! Form::label('discount_type', __( 'purchase.discount_type' ) . ':') !!}
 								<select name="discount_type" class="chosen-select-member form-control "  id='selectDynamic' data-placeholder="Choose type...">
@@ -235,7 +235,7 @@
 							</div>
 						</td>
 
-						<td class="col-md-3">
+						<td class="col-md-3 hide">
 							<div class="form-group" id='Check'>
 							{!! Form::label('discount_amount', __( 'purchase.discount_amount' ) . ':') !!}
 							{!! Form::text('discount_amount', 0, ['class' => 'form-control input_number', 'required','id'=>'discount_amount_']); !!}
@@ -244,14 +244,14 @@
 			<td class="col-md-3">
 							&nbsp;
 						</td>
-						<td class="col-md-3">
+						<td class="col-md-3 hide">
 							<b>@lang( 'purchase.discount' ):</b>(-) 
 							<span id="discount_calculated_amount" class="display_currency">0</span>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<div class="form-group">
+							<div class="form-group hide">
 							{!! Form::label('tax_id', __('purchase.purchase_tax') . ':') !!}
 							<select name="tax_id" id="tax_id" class="form-control select2" placeholder="'Please Select'">
 								<option value="" data-tax_amount="0" data-tax_type="fixed" selected>@lang('lang_v1.none')</option>
@@ -264,14 +264,14 @@
 						</td>
 						<td>&nbsp;</td>
 						<td>&nbsp;</td>
-						<td>
+						<td class="hide">
 							<b>@lang( 'purchase.purchase_tax' ):</b>(+) 
 							<span id="tax_calculated_amount" class="display_currency">0</span>
 						</td>
 					</tr>
 
 					<tr>
-						<td>
+						<td class="hide">
 							<div class="form-group">
 							{!! Form::label('shipping_details', __( 'purchase.shipping_details' ) . ':') !!}
 							{!! Form::text('shipping_details', null, ['class' => 'form-control']); !!}
@@ -279,7 +279,7 @@
 						</td>
 						<td>&nbsp;</td>
 						<td>&nbsp;</td>
-						<td>
+						<td class="hide">
 							<div class="form-group">
 							{!! Form::label('shipping_charges','(+) ' . __( 'purchase.additional_shipping_charges' ) . ':') !!}
 							{!! Form::text('shipping_charges', 0, ['class' => 'form-control input_number', 'required']); !!}
@@ -291,12 +291,12 @@
 						<td>&nbsp;</td>
 						<td>&nbsp;</td>
 						<td>&nbsp;</td>
-						<td>
+						<td class="hide">
 							{!! Form::hidden('final_total', 0 , ['id' => 'grand_total_hidden']); !!}
 							<b>@lang('purchase.purchase_total'): </b><span id="grand_total" class="display_currency" data-currency_symbol='true'>0</span>
 						</td>
 					</tr>
-					<tr>
+					<tr class="hide">
 						<td colspan="4">
 							<div class="form-group">
 								{!! Form::label('additional_notes',__('purchase.additional_notes')) !!}

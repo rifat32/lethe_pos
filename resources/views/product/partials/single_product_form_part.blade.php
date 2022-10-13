@@ -14,7 +14,7 @@
   <div class="table-responsive">
     <table class="table table-bordered add-product-price-table table-condensed {{$class}}">
         <tr>
-          <th>@lang('product.default_purchase_price')</th>
+          <th>Costing</th>
           <th>@lang('product.profit_percent') @show_tooltip(__('tooltip.profit_percent'))</th>
           <th>Sale Price</th>
         </tr>

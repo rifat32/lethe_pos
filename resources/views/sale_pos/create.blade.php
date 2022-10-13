@@ -18,7 +18,7 @@
 {!! Form::open(['url' => action('SellPosController@store'), 'method' => 'post', 'id' => 'add_pos_sell_form' ]) !!}
 <section class="content no-print" style="background: #0a9ca3;">
 	<div class="row"  >
-		<div style="margin:0 auto;" class="   @if(!empty($pos_settings['hide_product_suggestion']) && !empty($pos_settings['hide_recent_trans'])) col-md-10 col-md-offset-2 @else col-md-7 col-md-offset-2 @endif col-sm-12"  >
+		<div style="margin:0 auto;" class="   @if(!empty($pos_settings['hide_product_suggestion']) && !empty($pos_settings['hide_recent_trans'])) col-md-10 col-md-offset-2 @else col-md-8 col-md-offset-2 @endif col-sm-12"  >
 			<div class="box box-success" style="margin-left:25rem; background:#dae6e4; height:95vh;">
 
 				<div class="box-header with-border">
@@ -245,23 +245,43 @@
 						<table class="table table-condensed table-bordered table-striped table-responsive" id="pos_table">
 							<thead>
 								<tr>
+									<th class="text-center col-md-3">
+										Lot No
+									</th>
+									<th class="text-center col-md-3">
+										Total Carton
+									</th>
 									<th class="tex-center col-md-4">
-										@lang('sale.product') @show_tooltip(__('lang_v1.tooltip_sell_product_column'))
+										Product Name @show_tooltip(__('lang_v1.tooltip_sell_product_column'))
 
 
 									</th>
 									<th class="text-center col-md-3">
-										@lang('sale.qty')
+										{{-- @lang('sale.qty') --}}
+										Gross weight/pc
 									</th>
 									<th class="text-center col-md-2 {{$hide_tax}}">
 										@lang('sale.price_inc_tax')
 									</th>
 									
-                                    <th class="text-center col-md-3">
+                                    {{-- <th class="text-center col-md-3">
 										Unit
+									</th> --}}
+									<th class="text-center col-md-3">
+										{{-- @lang('sale.subtotal') --}}
+										per kg
+										BDT
 									</th>
 									<th class="text-center col-md-3">
-										@lang('sale.subtotal')
+										{{-- @lang('sale.subtotal') --}}
+										<span style="visibility: hidden;">
+
+											fffffffffffffffffffffffffff
+										</span>
+										BDT 
+										
+										
+										
 									</th>
 
 									<th class="text-center"><i class="fa fa-close" aria-hidden="true"></i></th>

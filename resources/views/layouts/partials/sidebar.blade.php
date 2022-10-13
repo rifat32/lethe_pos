@@ -206,7 +206,7 @@
     <li class=" {{in_array($request->segment(1), ['purchases', 'purchase-return']) ? 'active active-sub' : '' }}" id="tour_step6">
       <a href="#" id="tour_step6_menu">
         <i class="fa fa-arrow-circle-down"></i>
-        <span class="link-name">@lang('purchase.purchases')</span>
+        <span class="link-name">Import</span>
         {{-- <span class="pull-right-container" style="margin-left:7px">
           <i class="fa fa-angle-left pull-right" aria-hidden="true"></i>
         </span> --}}
@@ -214,13 +214,13 @@
       <ul class="sub-menu">
       
         @can('purchase.view')
-        <li class="{{ $request->segment(1) == 'purchases' && $request->segment(2) == null ? 'active' : '' }}"><a href="{{action('PurchaseController@index')}}"><i class="fa fa-list"></i>@lang('purchase.list_purchase')</a></li>
+        <li class="{{ $request->segment(1) == 'purchases' && $request->segment(2) == null ? 'active' : '' }}"><a href="{{action('PurchaseController@index')}}"><i class="fa fa-list"></i>List Imports</a></li>
         @endcan
         @can('purchase.create')
-        <li class="{{ $request->segment(1) == 'purchases' && $request->segment(2) == 'create' ? 'active' : '' }}"><a href="{{action('PurchaseController@create')}}"><i class="fa fa-plus-circle"></i> @lang('purchase.add_purchase')</a></li>
+        <li class="{{ $request->segment(1) == 'purchases' && $request->segment(2) == 'create' ? 'active' : '' }}"><a href="{{action('PurchaseController@create')}}"><i class="fa fa-plus-circle"></i>Add Import</a></li>
         @endcan
         @can('purchase.update')
-        <li class="{{ $request->segment(1) == 'purchase-return' ? 'active' : '' }}"><a href="{{action('PurchaseReturnController@index')}}"><i class="fa fa-undo"></i> @lang('lang_v1.list_purchase_return')</a></li>
+        <li class="{{ $request->segment(1) == 'purchase-return' ? 'active' : '' }}"><a href="{{action('PurchaseReturnController@index')}}"><i class="fa fa-undo"></i> List Imports Return</a></li>
         @endcan
       </ul>
     </li>

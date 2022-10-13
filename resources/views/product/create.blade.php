@@ -26,7 +26,7 @@
               'placeholder' => __('product.product_name')]); !!}
           </div>
         </div>
-        <div class="col-sm-4 @if(!session('business.enable_brand')) hide @endif">
+        <div class="col-sm-4 hide @if(!session('business.enable_brand')) hide @endif">
           <div class="form-group">
             {!! Form::label('brand_id', __('product.brand') . ':') !!}
             <div class="input-group">
@@ -66,7 +66,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-4 hide">
           <div class="form-group">
             {!! Form::label('sku', __('product.sku') . ':') !!} @show_tooltip(__('tooltip.sku'))
             {!! Form::text('sku', null, ['class' => 'form-control',
@@ -95,17 +95,17 @@
             </label>@show_tooltip(__('tooltip.enable_stock')) <p class="help-block"><i>@lang('product.enable_stock_help')</i></p>
           </div>
         </div>
-        <div class="col-sm-4 @if(!empty($duplicate_product) && $duplicate_product->enable_stock == 0) hide @endif" id="alert_quantity_div">
+        <div class="col-sm-4 hide @if(!empty($duplicate_product) && $duplicate_product->enable_stock == 0) hide @endif" id="alert_quantity_div">
           <div class="form-group">
             {!! Form::label('alert_quantity',  __('product.alert_quantity') . ':*') !!} @show_tooltip(__('tooltip.alert_quantity'))
-            {!! Form::number('alert_quantity', !empty($duplicate_product->alert_quantity) ? $duplicate_product->alert_quantity : null , ['class' => 'form-control', 'required',
+            {!! Form::number('alert_quantity', !empty($duplicate_product->alert_quantity) ? $duplicate_product->alert_quantity : 1 , ['class' => 'form-control', 'required',
             'placeholder' => __('product.alert_quantity'), 'min' => '0']); !!}
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 hide">
             <div class="form-group">
                 {!! Form::label('name', "Discount". ':*') !!}
-                  {!! Form::text('discount', null, ['class' => 'form-control', 'required', 'placeholder' =>"Discount"]); !!}
+                  {!! Form::text('discount', 0, ['class' => 'form-control', 'required', 'placeholder' =>"Discount"]); !!}
               </div>
           </div>
         {{-- <div class="col-sm-4" >
@@ -117,15 +117,15 @@
           </div>
         </div> --}}
         <!---<div class="clearfix"></div>-->
-        <div class="col-sm-12"
-        {{-- style="display:none" --}}
+        <div class="col-sm-12 hide"
+       
         >
           <div class="form-group">
             {!! Form::label('product_description', __('lang_v1.product_description') . ':') !!}
               {!! Form::textarea('product_description', !empty($duplicate_product->product_description) ? $duplicate_product->product_description : null, ['class' => 'form-control']); !!}
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 ">
           <div class="form-group">
             {!! Form::label('image', __('lang_v1.product_image') . ':') !!}
             {!! Form::file('image', ['id' => 'upload_image', 'accept' => 'image/*']); !!}
@@ -133,7 +133,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4" >
+        <div class="col-sm-4 hide" >
           <div class="form-group">
             <label class="col-lg-5">Multiple Image</label>
             <input class="form-control"  type="file" name="images[]" multiple>
@@ -256,21 +256,21 @@
   <div class="box box-solid">
     <div class="box-body">
       <div class="row">
-		<div class="col-sm-4">
+		<div class="col-sm-4 hide">
           <div class="form-group">
             {!! Form::label('type', __('product.product_type') . ':*') !!} @show_tooltip(__('tooltip.product_type'))
             {!! Form::select('type', ['single' => 'Single', 'variable' => 'Variable'], !empty($duplicate_product->type) ? $duplicate_product->type : null, ['class' => 'form-control select2',
             'required', 'data-action' => !empty($duplicate_product) ? 'duplicate' : 'add', 'data-product_id' => !empty($duplicate_product) ? $duplicate_product->id : '0']); !!}
           </div>
         </div>
-        <div class="col-sm-4 @if(!session('business.enable_price_tax')) hide @endif">
+        <div class="col-sm-4 hide @if(!session('business.enable_price_tax')) hide @endif">
           <div class="form-group">
             {!! Form::label('tax', __('product.applicable_tax') . ':') !!}
               {!! Form::select('tax', $taxes, !empty($duplicate_product->tax) ? $duplicate_product->tax : null, ['placeholder' => __('messages.please_select'), 'class' => 'form-control select2'], $tax_attributes); !!}
           </div>
         </div>
 
-        <div class="col-sm-4 @if(!session('business.enable_price_tax')) hide @endif">
+        <div class="col-sm-4 hide @if(!session('business.enable_price_tax')) hide @endif">
           <div class="form-group">
             {!! Form::label('tax_type', __('product.selling_price_tax_type') . ':*') !!}
               {!! Form::select('tax_type', ['inclusive' => __('product.inclusive'), 'exclusive' => __('product.exclusive')], !empty($duplicate_product->tax_type) ? $duplicate_product->tax_type : 'exclusive',

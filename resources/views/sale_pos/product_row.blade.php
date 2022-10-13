@@ -1,4 +1,52 @@
+@php
+ $stock =           DB::table('variation_location_details') ->select('qty_available')
+                    ->where('variation_id','=', $product->variation_id)
+					->first();
+					
+
+
+@endphp
+@php
+		$lot_no_line_id = '';
+			if(!empty($product->lot_no_line_id)){
+				$lot_no_line_id = $product->lot_no_line_id;
+			}
+			$lot_enabled = session()->get('business.enable_lot_number');
+			$exp_enabled = session()->get('business.enable_product_expiry');
+@endphp
 <tr class="product_row" data-row_index="{{$row_count}}">
+	<td>
+					<select class="form-control lot_number" name="products[{{$row_count}}][lot_no_line_id]" @if(!empty($product->transaction_sell_lines_id)) disabled @endif>
+				<option value="">@lang('lang_v1.lot_n_expiry')</option>
+				@foreach($product->lot_numbers as $lot_number)
+					@php
+						$selected = "";
+						if($lot_number->purchase_line_id == $lot_no_line_id){
+							$selected = "selected";
+
+							$max_qty_rule = $lot_number->qty_available;
+							$max_qty_msg = __('lang_v1.quantity_error_msg_in_lot', ['qty'=> $lot_number->qty_formated, 'unit' => $product->unit  ]);
+						}
+
+						$expiry_text = '';
+						if($exp_enabled == 1 && !empty($lot_number->exp_date)){
+							if( \Carbon::now()->gt(\Carbon::createFromFormat('Y-m-d', $lot_number->exp_date)) ){
+								$expiry_text = '(' . __('report.expired') . ')';
+							}
+						}
+					@endphp
+					<option value="{{$lot_number->purchase_line_id}}" data-qty_available="{{$lot_number->qty_available}}" data-msg-max="@lang('lang_v1.quantity_error_msg_in_lot', ['qty'=> $lot_number->qty_formated, 'unit' => $product->unit  ])" {{$selected}}>@if(!empty($lot_number->lot_number) && $lot_enabled == 1){{$lot_number->lot_number}} @endif @if($lot_enabled == 1 && $exp_enabled == 1) - @endif @if($exp_enabled == 1 && !empty($lot_number->exp_date)) @lang('product.exp_date'): {{@format_date($lot_number->exp_date)}} @endif {{$expiry_text}}</option>
+				@endforeach
+			</select>
+	</td>
+	<td class="text-center" style="vertical-align: middle;">
+		@if ($stock)
+			{{number_format($stock->qty_available,2)}}
+			@else
+			0
+		@endif
+	</td>
+	
 	<td>
 		@php
 			$product_name = $product->product_name . '<br/>' . $product->sub_sku ;
@@ -151,11 +199,17 @@
 	<td class="{{$hide_tax}}">
 		<input type="text" name="products[{{$row_count}}][unit_price_inc_tax]" class="form-control pos_unit_price_inc_tax input_number" value="{{@num_format($unit_price_inc_tax)}}" @if(!auth()->user()->can('edit_product_price_from_sale_screen')) readonly @endif>
 	</td>
-	<td>
+	{{-- <td>
 		<h2 style="text-align: center; font-weight: bold;">{{$product->unit}}</h2>
 		
 
+	</td> --}}
+	<td>
+		<h2 style="text-align: center; font-weight: bold;">{{@num_format($product->quantity_ordered*$unit_price_inc_tax )}}</h2>
+		
+
 	</td>
+	
 	<td class="text-center v-center">
 		@php
 			$subtotal_type = !empty($pos_settings['is_pos_subtotal_editable']) ? 'text' : 'hidden';
