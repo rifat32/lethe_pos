@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4eaddb0d-1b1a-4c11-8197-8a8bfe77712d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/resources/views/purchase/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/purchase/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/purchase/partials/purchase_entry_row.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/purchase/partials/purchase_entry_row.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel-2022-10-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel-2022-10-13.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GA7gmjRKvp2hWgAugyYEDzS6fg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4eaddb0d-1b1a-4c11-8197-8a8bfe77712d" name="Changes" comment="" />
+      <created>1665819647164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665819647164</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

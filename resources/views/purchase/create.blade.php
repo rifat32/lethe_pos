@@ -151,23 +151,23 @@
 									<th>#</th>
 									<th>@lang( 'product.product_name' )</th>
 									<th>@lang( 'purchase.purchase_quantity' )</th>
-									<th>@lang( 'lang_v1.unit_cost_before_discount' )</th>
-									<th>@lang( 'lang_v1.discount_percent' )</th>
-									<th>@lang( 'purchase.unit_cost_before_tax' )</th>
-									<th class="{{$hide_tax}}">@lang( 'purchase.subtotal_before_tax' )</th>
-									<th class="{{$hide_tax}}">@lang( 'purchase.product_tax' )</th>
-									<th class="{{$hide_tax}}">@lang( 'purchase.net_cost' )</th>
-									<th>@lang( 'purchase.line_total' )</th>
+									<th class="hide">@lang( 'lang_v1.unit_cost_before_discount' )</th>
+									<th class="hide">@lang( 'lang_v1.discount_percent' )</th>
+									<th class="">Unit Cost</th>
+									<th class="{{$hide_tax}} hide">@lang( 'purchase.subtotal_before_tax' )</th>
+									<th class="{{$hide_tax}} hide">@lang( 'purchase.product_tax' )</th>
+									<th class="{{$hide_tax}} hide">@lang( 'purchase.net_cost' )</th>
+									<th class="hide">@lang( 'purchase.line_total' )</th>
 									
-									<th class="@if(!session('business.enable_editing_product_from_purchase')) hide @endif">
+									<th class="@if(!session('business.enable_editing_product_from_purchase')) hide @endif hide">
 										@lang( 'lang_v1.profit_margin' )
 									</th>
-									<th>
+									<th class="hide">
 									Sale Price
 									</th>
 									
 								<!------------Moinul--------->
-									<th>
+									<th class="hide">
 										 Sell Group Price
 									</th>
 								<!------------Moinul--------->
@@ -183,7 +183,7 @@
 										</th>
 									@endif
 									@if(session('business.enable_product_expiry'))
-										<th>
+										<th class="hide">
 											@lang('product.mfg_date') / @lang('product.exp_date')
 										</th>
 									@endif

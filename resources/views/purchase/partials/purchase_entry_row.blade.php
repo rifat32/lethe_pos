@@ -28,22 +28,22 @@
             @endphp
             {!! Form::text('purchases[' . $row_count . '][quantity]', number_format(1, 2, $currency_details->decimal_separator, $currency_details->thousand_separator), ['class' => 'form-control input-sm purchase_quantity input_number mousetrap', 'required', 'data-rule-abs_digit' => $check_decimal, 'data-msg-abs_digit' => __('lang_v1.decimal_value_not_allowed')]); !!} {{ $product->unit->short_name }}
         </td>
-        <td>
+        <td class="hide">
             {!! Form::text('purchases[' . $row_count . '][pp_without_discount]',
             number_format($variation->default_purchase_price, 2, $currency_details->decimal_separator, $currency_details->thousand_separator), ['class' => 'form-control input-sm purchase_unit_cost_without_discount input_number', 'required']); !!}
         </td>
-        <td>
+        <td class="hide">
             {!! Form::text('purchases[' . $row_count . '][discount_percent]', 0, ['class' => 'form-control input-sm inline_discounts input_number', 'required']); !!}
         </td>
-        <td>
+        <td class="">
             {!! Form::text('purchases[' . $row_count . '][purchase_price]',
             number_format($variation->default_purchase_price, 2, $currency_details->decimal_separator, $currency_details->thousand_separator), ['class' => 'form-control input-sm purchase_unit_cost input_number', 'required']); !!}
         </td>
-        <td class="{{$hide_tax}}">
+        <td class="{{$hide_tax}} hide">
             <span class="row_subtotal_before_tax display_currency">0</span>
             <input type="hidden" class="row_subtotal_before_tax_hidden" value=0>
         </td>
-        <td class="{{$hide_tax}}">
+        <td class="{{$hide_tax}} hide">
             <div class="input-group">
                 <select name="purchases[{{ $row_count }}][purchase_line_tax_id]" class="form-control select2 input-sm purchase_line_tax_id" placeholder="'Please Select'">
                     <option value="" data-tax_amount="0" @if( $hide_tax == 'hide' )
@@ -57,7 +57,7 @@
                     0.00</span>
             </div>
         </td>
-        <td class="{{$hide_tax}}">
+        <td class="{{$hide_tax}} hide">
             @php
                 $dpp_inc_tax = number_format($variation->dpp_inc_tax, 2, $currency_details->decimal_separator, $currency_details->thousand_separator);
                 if($hide_tax == 'hide'){
@@ -67,14 +67,14 @@
             @endphp
             {!! Form::text('purchases[' . $row_count . '][purchase_price_inc_tax]', $dpp_inc_tax, ['class' => 'form-control input-sm purchase_unit_cost_after_tax input_number', 'required']); !!}
         </td>
-        <td>
+        <td class="hide">
             <span class="row_subtotal_after_tax display_currency">0</span>
             <input type="hidden" class="row_subtotal_after_tax_hidden" value=0>
         </td>
-        <td class="@if(!session('business.enable_editing_product_from_purchase')) hide @endif">
+        <td class="hide @if(!session('business.enable_editing_product_from_purchase')) hide @endif">
             {!! Form::text('purchases[' . $row_count . '][profit_percent]', number_format($variation->profit_percent, 2, $currency_details->decimal_separator, $currency_details->thousand_separator), ['class' => 'form-control input-sm input_number profit_percent', 'required']); !!}
         </td>
-        <td>
+        <td class="hide">
             @if(session('business.enable_editing_product_from_purchase'))
                 {!! Form::text('purchases[' . $row_count . '][default_sell_price]', number_format($variation->default_sell_price, 2, $currency_details->decimal_separator, $currency_details->thousand_separator), ['class' => 'form-control input-sm input_number default_sell_price', 'required']); !!}
             @else
@@ -83,7 +83,7 @@
         </td>
         
          <!-----------------Moinul------------------------->
-        <td>
+        <td class="hide">
                 @if(!empty($allowed_group_prices))
                         @foreach($allowed_group_prices as $key => $value)
                             <strong>{{$value}}</strong> - @if(!empty($group_price_details[$variation->id][$key]))
@@ -112,7 +112,7 @@
             </td>
         @endif
         @if(session('business.enable_product_expiry'))
-            <td style="text-align: left;">
+            <td style="text-align: left;" class="hide">
 
                 {{-- Maybe this condition for checkin expiry date need to be removed --}}
                 @if(!empty($product->expiry_period_type))

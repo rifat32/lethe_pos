@@ -95,7 +95,7 @@ class ProductController extends Controller
                 ->where('products.business_id', $business_id)
                 // ->where('products.created_by', $user_id)
                 ->where('products.type', '!=', 'modifier')
-                ->where("c1.name","!=", "doctor" )
+                // ->where("c1.name","!=", "doctor" )
                 ->select(
                     'products.id',
                     'products.name as product',
@@ -953,10 +953,8 @@ class ProductController extends Controller
             if ($check_qty) {
                 $products->where('VLD.qty_available', '>', 0);
             }
-            $products->join('categories as c', 'products.category_id', '=', 'c.id');
-            $products->where(
-                "c.id", "!=", "30"
-    );
+         
+      
             $products->select(
                 'products.id as product_id',
                 'products.name',
